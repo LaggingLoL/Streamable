@@ -1,5 +1,0 @@
-if not game.IsLoaded(game) then
-  game.Loaded.Wait(game.Loaded); 
-end
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LaggingLoL/Streamable/main/Loader", true))()
